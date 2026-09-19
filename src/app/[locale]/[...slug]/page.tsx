@@ -14,7 +14,7 @@ import { CONTENT_TYPES } from "@/config/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 import en from "@/locales/en.json";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://animal-daycare-anomaly.wiki";
 type Messages = typeof en;
 
 function languageAlternates(pathname: string) {
@@ -58,7 +58,7 @@ async function NavigationPage({ locale, contentType, navGroups }: { locale: Loca
   if (!CONTENT_TYPES.includes(contentType)) notFound();
   const messages = (await getMessages({ locale })) as Messages;
   const items = await getAllContent(contentType, locale);
-  const listData = { "@context": "https://schema.org", "@type": "ItemList", name: `${contentType} — ${siteConfig.name}`, itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, url: `${siteUrl}/${contentType}/${item.slug}`, name: item.metadata.title })) };
+  const listData = { "@context": "https://schema.org", "@type": "ItemList", name: `${contentType} — ${siteConfig.name}`, itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, url: `${siteUrl}/${locale}/${contentType}/${item.slug}`, name: item.metadata.title })) };
 
   // 读取分类标题（优先用 locale JSON 里的，没有就转 slug）
   const sectionTitle = (messages as unknown as Record<string, Record<string, string>>)[contentType]?.overviewTitle
@@ -76,8 +76,8 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
   const pathname = `/${contentType}/${slug.join("/")}`;
   const tocLabel = messages.shared.tableOfContents || messages.shared.inThisSection || "Table of Contents";
   const sectionLabel = contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: item.metadata.title, description: item.metadata.description, image: `${siteUrl}${item.metadata.image ?? "/images/hero.webp"}`, datePublished: item.metadata.date, dateModified: item.metadata.lastModified ?? item.metadata.date, mainEntityOfPage: `${siteUrl}${pathname}`, author: { "@type": "Organization", name: siteConfig.name }, publisher: { "@type": "Organization", name: siteConfig.name, logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png` } } };
-  const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: siteUrl }, { "@type": "ListItem", position: 2, name: sectionLabel, item: `${siteUrl}/${contentType}` }, { "@type": "ListItem", position: 3, name: item.metadata.title, item: `${siteUrl}${pathname}` }] };
+  const articleData = { "@context": "https://schema.org", "@type": "Article", headline: item.metadata.title, description: item.metadata.description, image: `${siteUrl}${item.metadata.image ?? "/images/hero.webp"}`, datePublished: item.metadata.date, dateModified: item.metadata.lastModified ?? item.metadata.date, mainEntityOfPage: `${siteUrl}/${locale}${pathname}`, inLanguage: locale, author: { "@type": "Organization", name: siteConfig.name }, publisher: { "@type": "Organization", name: siteConfig.name, logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png` } } };
+  const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${locale}` }, { "@type": "ListItem", position: 2, name: sectionLabel, item: `${siteUrl}/${locale}/${contentType}` }, { "@type": "ListItem", position: 3, name: item.metadata.title, item: `${siteUrl}/${locale}${pathname}` }] };
 
   const relatedLabel = messages.shared.relatedGuides || "Related Guides";
 
