@@ -37,3 +37,7 @@ next-env.d.ts
 
 # same app
 .same/
+
+# game-refactor 各 Part 的临时素材/中间产物（不入库）
+tmp/
+tmp_part*/
