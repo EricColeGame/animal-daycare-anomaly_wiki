@@ -225,51 +225,38 @@ export async function getContent(contentType: string, slugSegments: string[], la
  * 导航分组结构（用于动态 Wiki Navigation）
  */
 export interface NavGroup {
-  /** 分组标题，来自目录名转人类可读格式，如 "bosses" → "Bosses" */
+  /** 分组标题，来自目录名转人类可读格式，如 "mechanics" → "Mechanics" */
   title: string;
   /** 该分组下的文章数量 */
   count: number;
-  /** 分组 slug（即目录名，如 "bosses"） */
+  /** 分组 slug（即目录名，如 "mechanics"） */
   slug: string;
   /** 文章链接列表 */
   links: Array<{ label: string; href: string; badge?: string }>;
 }
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
+// slug 集合必须与 NAVIGATION_CONFIG 的分类一一对应（关键词.json 的 categories）。
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
   guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  mechanics: "Anomaly Mechanics",
+  characters: "Characters & Animals",
+  maps: "Maps & Rooms",
+  controls: "Controls & Jobs",
+  progression: "Progression",
+  codes: "Codes",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
-};
+// locale → 分组标题映射。当前四种语言（en/pt/es/de）的侧边栏标题统一回退英文默认值，
+// 翻译在 Part 6 统一补齐；此处保留扩展点，不再保留已移除语言（如 ja）的死配置。
+const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {};
 
-// locale → 分组标题映射
-const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
-};
+// locale → "Overview" 翻译（同样留待 Part 6 补齐）
+const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {};
 
-// locale → "Overview" 翻译
-const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
-};
-
-// 分组排序顺序
+// 分组排序顺序（必须覆盖 GROUP_TITLES 的全部 slug，未列出的分组排到末尾）
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "mechanics", "characters", "maps", "controls", "progression", "codes",
 ];
 
 /**

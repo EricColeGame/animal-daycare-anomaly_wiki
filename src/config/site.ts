@@ -36,6 +36,8 @@ export const siteConfig: SiteConfig = {
     developerGroup: "https://www.roblox.com/communities/235484791/Day-Dreams-Games",
     gameplayVideos: "https://www.youtube.com/results?search_query=Animal+Daycare+Anomaly+Roblox+gameplay",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // 语言集合的真相源是 src/i18n/routing.ts；此处仅作对齐，避免出现第五处语言来源。
+  // 该字段当前无任何消费者（全仓库已确认），保留仅为维持 SiteConfig 结构稳定。
+  locales: ["en", "pt", "es", "de"],
   defaultLocale: "en",
 };

@@ -7,8 +7,13 @@
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
-    "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "maps": "Maps",
+    "controls": "Controls",
+    "progression": "Progression",
+    "codes": "Codes"
   },
   "home": {
     "meta": {
@@ -463,7 +468,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Animal Daycare Anomaly Guide",
+    "overviewDescription": "Every Animal Daycare Anomaly guide in one place: beginner walkthroughs, shift routines, secret endings, and the tips that keep a full lobby alive from morning intake to lights out."
+  },
+  "mechanics": {
+    "overviewTitle": "Animal Daycare Anomaly Mechanics",
+    "overviewDescription": "How the Animal Daycare Anomaly systems actually work: anomaly types, the full anomaly list, daycare rules, event triggers, jumpscare behaviour, and the challenge modifiers that raise the stakes."
+  },
+  "characters": {
+    "overviewTitle": "Animal Daycare Anomaly Characters",
+    "overviewDescription": "Meet the Animal Daycare Anomaly cast: the animals you admit, the pets and NPCs that wander the building, the babysitter role, and the impostors hiding behind familiar faces."
+  },
+  "maps": {
+    "overviewTitle": "Animal Daycare Anomaly Maps",
+    "overviewDescription": "Navigate every Animal Daycare Anomaly map: floor layouts, individual rooms, hidden rooms worth checking, and the location markers that make camera sweeps faster."
+  },
+  "controls": {
+    "overviewTitle": "Animal Daycare Anomaly Controls",
+    "overviewDescription": "Animal Daycare Anomaly controls and the jobs they drive: full keybind reference, the roles you can take on a shift, daily objectives, and the task priorities that keep the daycare running."
+  },
+  "progression": {
+    "overviewTitle": "Animal Daycare Anomaly Progression",
+    "overviewDescription": "Track your Animal Daycare Anomaly progression: level rewards, unlock milestones, achievement hunting, and the secret routes that pay out the rarest endings."
+  },
+  "codes": {
+    "overviewTitle": "Animal Daycare Anomaly Codes",
+    "overviewDescription": "All active Animal Daycare Anomaly codes with the reward each one grants, plus the exact redemption steps and what to do when a code stops working."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -479,7 +511,9 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
   },
   "footer": {
     "aboutTitle": "Animal Daycare Anomaly Wiki",

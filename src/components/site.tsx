@@ -17,6 +17,9 @@ export function localizeHref(href: string, locale: string) {
 
 export async function SiteHeader({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "nav" });
+  // nav 命名空间现仅承载导航分类键（G2 契约）；菜单 aria-label 与主题切换按钮文案
+  // 属于站点框架文案，已迁到 shared，避免与"nav 只含分类键"的约束冲突。
+  const shared = await getTranslations({ locale, namespace: "shared" });
   const header = (
     <div className="flex items-center justify-between gap-4">
       <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
@@ -35,9 +38,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
       </nav>
       <div className="flex items-center gap-2">
         <LanguageSwitcher locale={locale} />
-        <ThemeToggle label={t("toggleTheme")} />
+        <ThemeToggle label={shared("toggleTheme")} />
         <Sheet>
-          <SheetTrigger asChild className="md:hidden"><Button variant="outline" size="icon" aria-label={t("menu")}><Menu className="h-4 w-4" /></Button></SheetTrigger>
+          <SheetTrigger asChild className="md:hidden"><Button variant="outline" size="icon" aria-label={shared("menu")}><Menu className="h-4 w-4" /></Button></SheetTrigger>
           <SheetContent className="border-border bg-background text-foreground">
             <div className="mt-8 grid gap-2">
               {NAVIGATION_CONFIG.map((item) => <Link key={item.key} href={localizeHref(item.path, locale)} className="rounded-lg px-3 py-3 text-sm font-semibold hover:bg-muted">{t(item.key)}</Link>)}
