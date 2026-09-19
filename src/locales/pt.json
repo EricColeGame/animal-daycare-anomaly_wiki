@@ -1,1 +1,582 @@
-{}
+{
+  "site": {
+    "name": "Animal Daycare Anomaly Wiki",
+    "shortName": "Animal Daycare Anomaly",
+    "tagline": "Guias de Detecção de Anomalias, Dicas de Creche, Segredos e Atualizações",
+    "description": "Animal Daycare Anomaly é um jogo Roblox de survival horror em que os jogadores administram uma creche, inspecionam visitantes animais, cuidam das crianças, descobrem impostores escondidos e sobrevivem a eventos noturnos misteriosos.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "characters": "Personagens",
+    "maps": "Mapas",
+    "controls": "Controles",
+    "progression": "Progressão",
+    "codes": "Códigos"
+  },
+  "home": {
+    "meta": {
+      "title": "Animal Daycare Anomaly Wiki - Códigos, Guia e Segredos",
+      "description": "Wiki completa de Animal Daycare Anomaly com guias para iniciantes, dicas de anomalias, segredos de gameplay, atualizações e estratégias de sobrevivência no Roblox."
+    },
+    "hero": {
+      "eyebrow": "Survival Horror Animal no Roblox",
+      "title": "Animal Daycare Anomaly Wiki",
+      "description": "Animal Daycare Anomaly é um jogo Roblox de survival horror em que os jogadores administram uma creche, inspecionam visitantes animais, cuidam das crianças, descobrem impostores escondidos e sobrevivem a eventos noturnos misteriosos.",
+      "stats": [
+        "2M+ Visitas Totais",
+        "Servidores de 25 Jogadores",
+        "0 Códigos Ativos",
+        "Atualizações Semanais"
+      ],
+      "primaryCta": "Guia para Iniciantes",
+      "secondaryCta": "Guia de Detecção de Anomalias",
+      "tertiaryCta": "Códigos Ativos",
+      "videoLabel": "Mídia oficial"
+    },
+    "updates": {
+      "title": "Últimas Atualizações",
+      "browse": "Ver Todos os Guias",
+      "viewAll": "Ver Tudo"
+    },
+    "start": {
+      "eyebrow": "Comece Aqui",
+      "title": "Sua Jornada em Animal Daycare Anomaly",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para Iniciantes",
+          "description": "Aprenda o ciclo completo do turno desde a primeira entrada: triagem de chegadas na recepção, preparo das refeições pedidas, minijogos na sala de recreação e travamento da instalação antes do anoitecer."
+        },
+        {
+          "number": "2",
+          "title": "Todos os Códigos Ativos",
+          "description": "Resgate os códigos ativos de Animal Daycare Anomaly para moedas da creche, baterias de câmera, uma skin de lanterna e um título de lobby limitado antes que expirem."
+        },
+        {
+          "number": "3",
+          "title": "Identifique Impostores",
+          "description": "Compare cada sinal de anomalia — garras extras, esclera invertida, pelo ondulante, sombra ausente e reflexo oco — com o padrão normal dos animais."
+        },
+        {
+          "number": "4",
+          "title": "Funções e Tarefas",
+          "description": "Divida a triagem de entrada, o trabalho na cozinha, a vigilância das câmeras e a patrulha noturna entre a equipe para que nenhum posto fique vazio durante o turno."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas Populares",
+      "title": "Em Alta Agora",
+      "quickLinks": [
+        "Checklist de Anomalias",
+        "Códigos Ativos",
+        "Sobrevivência Noturna",
+        "Lista de Medalhas"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para Iniciantes",
+          "description": "O guia completo do primeiro turno, cobrindo triagem, preparo de refeições, minijogos e sobrevivência noturna.",
+          "href": "/guide/animal-daycare-anomaly-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Códigos Ativos",
+          "description": "Todos os códigos ativos de Animal Daycare Anomaly com suas recompensas e o passo a passo exato de resgate.",
+          "href": "/codes/animal-daycare-anomaly-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Lista de Anomalias",
+          "description": "Todas as designações de anomalia documentadas, seu disfarce, pista visual e método de verificação.",
+          "href": "/mechanics/animal-daycare-anomaly-anomaly-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "Como Identificar Impostores",
+          "description": "Sinais físicos, comportamentais, sonoros e ambientais que revelam um sósia antes que ele chegue à sala de recreação.",
+          "href": "/mechanics/animal-daycare-anomaly-anomalies"
+        },
+        {
+          "badge": "Novo",
+          "title": "Funções e Tarefas",
+          "description": "Deveres do Triador de Entrada, Cuidador de Atividades, Monitor de Vigilância e Sentinela Noturno explicados.",
+          "href": "/controls/animal-daycare-anomaly-roles"
+        },
+        {
+          "badge": "Popular",
+          "title": "Dicas de Sobrevivência Noturna",
+          "description": "Rotinas de barricada, hábitos de câmera e reinício de disjuntores que levam você do anoitecer ao turno da manhã.",
+          "href": "/guide/animal-daycare-anomaly-tips"
+        },
+        {
+          "badge": "Novo",
+          "title": "Medalhas e Conquistas",
+          "description": "Todas as medalhas de Animal Daycare Anomaly, sua dificuldade e o objetivo que as desbloqueia.",
+          "href": "/progression/animal-daycare-anomaly-achievements"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Desbloqueios de Segurança",
+          "description": "Lente térmica, lanterna UV, portão de eclusa e os pontos de liberação que cada um custa.",
+          "href": "/progression/animal-daycare-anomaly-unlocks"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Animal Daycare Anomaly?",
+      "paragraphs": [
+        "Animal Daycare Anomaly é um jogo Roblox de survival horror e gerenciamento da Day Dreams Games. Você administra uma creche para filhotes durante o dia, recebendo visitantes na recepção, preparando as refeições que eles pedem, conduzindo minijogos na sala de recreação e acalmando quem tem o medidor de estresse alto demais.",
+        "A reviravolta vem com os hóspedes. Algumas chegadas são sósias cujos disfarces têm falhas físicas, comportamentais ou sonoras, e tudo o que você admite durante o dia se torna hostil depois do anoitecer. Os turnos passam por triagem matinal, cuidados do meio-dia, travamento ao anoitecer e uma fase noturna em que você observa as câmeras dos corredores, reinicia disjuntores e mantém cada criança real contabilizada."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedora",
+          "value": "Day Dreams Games"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Terror de Sobrevivência"
+        },
+        {
+          "label": "Visitas",
+          "value": "2M+"
+        },
+        {
+          "label": "Tamanho do Servidor",
+          "value": "25 Jogadores"
+        },
+        {
+          "label": "Fases do Turno",
+          "value": "4"
+        },
+        {
+          "label": "Níveis de Medalha",
+          "value": "4"
+        }
+      ],
+      "cta": "Explore Todos os Guias"
+    },
+    "explore": {
+      "title": "Explore o Animal Daycare Anomaly Wiki",
+      "description": "Todos os sistemas de Animal Daycare Anomaly detalhados: triagem de entrada, detecção de anomalias, preparo de refeições, funções da equipe, desbloqueios de segurança e sobrevivência ao turno noturno.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para Iniciantes de Animal Daycare Anomaly",
+          "description": "Um passo a passo amigável do ciclo central do turno na creche, cobrindo verificação de visitantes, casos suspeitos, cuidado com os animais e os eventos noturnos que encerram uma partida.",
+          "href": "/guide/animal-daycare-anomaly-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Faça a triagem de cada chegada na recepção, verificando patas, olhos, sombras e carteiras de identificação antes de destrancar o portão."
+            },
+            {
+              "label": "2",
+              "detail": "Prepare no refeitório a refeição que cada criança pedir e sirva antes que o medidor de fome se esvazie."
+            },
+            {
+              "label": "3",
+              "detail": "Conduza minijogos na sala de recreação para gastar a energia dos pequenos e manter baixo o medidor de pânico da instalação."
+            },
+            {
+              "label": "4",
+              "detail": "Acalme animais agitados com petiscos e carinho antes que o estresse deles se espalhe pela sala inteira."
+            },
+            {
+              "label": "5",
+              "detail": "Percorra as câmeras em busca de mudanças nos corredores e depois lacre portas e janelas no travamento do anoitecer."
+            },
+            {
+              "label": "6",
+              "detail": "Sobreviva ao turno noturno observando monitores, reiniciando disjuntores e evitando corredores sem iluminação."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia de Anomalias de Animal Daycare Anomaly",
+          "description": "Um guia de detecção dos visitantes anormais, comportamentos suspeitos e pistas ocultas que você encontra nas inspeções da creche, para julgar quais chegadas são seguras.",
+          "href": "/mechanics/animal-daycare-anomaly-anomaly-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Seis Garras",
+              "detail": "A síndrome do dígito extra mostra seis garras ou um dedo articulado a mais durante a inspeção das patas."
+            },
+            {
+              "label": "Olhos Negros",
+              "detail": "A esclera invertida aparece como olhos totalmente negros ou branco-leitosos sob o exame da lanterna."
+            },
+            {
+              "label": "Pelo Ondulante",
+              "detail": "A deriva de textura faz o padrão do pelo ondular ou se deslocar enquanto o visitante está perfeitamente imóvel."
+            },
+            {
+              "label": "Mandíbula Deslocada",
+              "detail": "Uma extensão de mandíbula desencaixa o maxilar inferior toda vez que o visitante fala."
+            },
+            {
+              "label": "Sem Sombra",
+              "detail": "Uma sombra ausente sob as luzes fortes do balcão é um dos sinais de baixo risco mais rápidos."
+            },
+            {
+              "label": "Sem Reflexo",
+              "detail": "Um reflexo oco deixa o espelho do balcão mostrando um espaço vazio atrás da criança."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de Gameplay de Animal Daycare Anomaly",
+          "description": "Uma visão completa do gameplay: alimentação, minijogos, acalmar animais, inspeções por câmera e as mecânicas de sobrevivência noturna que definem sua nota no turno.",
+          "href": "/guide/animal-daycare-anomaly-shifts",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Manhã",
+              "detail": "A inspeção na recepção e a liberação de entrada ocorrem das 08:00 às 12:00, quando as anormalidades evidentes são mais fáceis de flagrar."
+            },
+            {
+              "label": "Meio-dia",
+              "detail": "O trabalho na cozinha e os minijogos recreativos preenchem das 12:00 às 17:00, enquanto a contagem por sala ainda precisa ser acompanhada."
+            },
+            {
+              "label": "Anoitecer",
+              "detail": "A contagem de cabeças e a preparação dos quartos ocorrem das 17:00 às 21:00, a última janela para selar todas as entradas."
+            },
+            {
+              "label": "Noite",
+              "detail": "A conservação de energia e a expulsão de intrusos ocorrem das 21:00 às 06:00, quando invasões encerram o turno na hora."
+            },
+            {
+              "label": "Câmeras",
+              "detail": "As câmeras de segurança revelam mudanças nos corredores e silhuetas que a visão da sala de recreação nunca mostra."
+            },
+            {
+              "label": "Refeições",
+              "detail": "Preparar refeições a cada três minutos, aproximadamente, mantém a estabilidade da sala subindo em vez de desabar."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Códigos de Animal Daycare Anomaly",
+          "description": "Uma seção dedicada aos códigos, listando os códigos promocionais ativos, a recompensa de cada um e o método de resgate, sempre atualizada para quem volta a jogar.",
+          "href": "/codes/animal-daycare-anomaly-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "DAYCARE2026",
+              "detail": "500 Moedas da Creche e 2 Caixas de Lanche, um ótimo impulso inicial para novos cuidadores.",
+              "badge": "Ativo"
+            },
+            {
+              "label": "ANOMALYHUNT",
+              "detail": "Skin de lanterna grátis e 250 Moedas da Creche, resgatáveis uma vez por perfil de jogador.",
+              "badge": "Ativo"
+            },
+            {
+              "label": "CAMERAFIX",
+              "detail": "3 Pacotes de Bateria para Câmera, o recurso que mantém a vigilância noturna funcionando.",
+              "badge": "Ativo"
+            },
+            {
+              "label": "NIGHTSHIFT",
+              "detail": "Aumento de 1,5x em dinheiro por 15 minutos, melhor ativado durante uma sessão de pico.",
+              "badge": "Ativo"
+            },
+            {
+              "label": "IMPOSTORALERT",
+              "detail": "Um título de lobby exclusivo, Vigilant, concedido como recompensa puramente cosmética de perfil.",
+              "badge": "Ativo"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guia de Funções de Animal Daycare Anomaly",
+          "description": "Um guia das funções que sua equipe pode assumir durante um turno, classificadas por quanto cada posto protege a creche de uma invasão noturna.",
+          "href": "/controls/animal-daycare-anomaly-roles",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "O Triador de Entrada domina a porta principal e o scanner, o único posto capaz de impedir uma anomalia antes que ela entre."
+            },
+            {
+              "label": "A",
+              "detail": "O Monitor de Vigilância trabalha na mesa de segurança, acompanhando as câmeras dos corredores e sinais sonoros com alta carga mental."
+            },
+            {
+              "label": "B",
+              "detail": "A Sentinela Noturna percorre o perímetro escurecido selando riscos durante a fase mais perigosa."
+            },
+            {
+              "label": "C",
+              "detail": "O Cuidador de Atividades cuida da cozinha e do cercado, mantendo fome, moral e pânico sob controle o dia inteiro."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia de Atualizações de Animal Daycare Anomaly",
+          "description": "Um módulo em estilo notícia que acompanha as últimas mudanças de gameplay, o polimento visual e as atualizações dos desenvolvedores, cobrindo novos conteúdos, patches e recursos por tempo limitado.",
+          "href": "/guide/animal-daycare-anomaly-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Câmeras",
+              "detail": "As câmeras de detecção foram refinadas, adicionando pistas mais sutis para os sósias que chegam."
+            },
+            {
+              "label": "Ritmo",
+              "detail": "O ritmo noturno foi reajustado para que a fase escura escale com mais aviso."
+            },
+            {
+              "label": "Ícones",
+              "detail": "Os ícones da interface foram renovados no lobby e nos terminais de segurança."
+            },
+            {
+              "label": "Visuais",
+              "detail": "O patch reforça a atmosfera e a tensão com um polimento visual atualizado."
+            },
+            {
+              "label": "Sósias",
+              "detail": "Os disfarces dos impostores variam mais do que antes, então as chegadas exigem escrutínio mais atento no balcão."
+            },
+            {
+              "label": "Invasões",
+              "detail": "Visitantes rejeitados e deixados do lado de fora do portão continuam sendo a principal causa de invasão."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Dicas e Truques de Animal Daycare Anomaly",
+          "description": "Uma seção prática de dicas sobre estratégia de sobrevivência, hábitos de inspeção, gestão de recursos e os erros que encerram turnos de iniciantes cedo demais.",
+          "href": "/guide/animal-daycare-anomaly-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Prancheta",
+              "detail": "Mantenha a prancheta de inspeção à mão e nunca deixe um animal passar pela recepção sem verificação."
+            },
+            {
+              "label": "Checklist",
+              "detail": "Faça o mesmo exame de cima a baixo em todos os visitantes para que nada escape."
+            },
+            {
+              "label": "Rotina",
+              "detail": "Crie uma rotina diurna fixa para estar equipado e posicionado antes que a escuridão chegue."
+            },
+            {
+              "label": "Barricada",
+              "detail": "Reforce portas e teste as câmeras durante o travamento do anoitecer, nunca depois que a noite começa."
+            },
+            {
+              "label": "Contagem",
+              "detail": "Reconte cada cama ao anoitecer, já que entidades não contabilizadas circulam livremente depois que as luzes se apagam."
+            },
+            {
+              "label": "Disjuntores",
+              "detail": "Reinicie disjuntores desarmados rapidamente, porque um apagão esconde uma anomalia se aproximando."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guia de Medalhas de Animal Daycare Anomaly",
+          "description": "Um guia de medalhas e conquistas com os marcos de progressão em Animal Daycare Anomaly e o objetivo exato que desbloqueia cada um.",
+          "href": "/progression/animal-daycare-anomaly-achievements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Primeiro Dia",
+              "detail": "Complete o Turno 1 sem deixar um impostor evidente entrar na creche."
+            },
+            {
+              "label": "Olho Afiado",
+              "detail": "Identifique com sucesso sua primeira anomalia de visitante no balcão de entrada."
+            },
+            {
+              "label": "Chef",
+              "detail": "Prepare 15 refeições corretas durante o corre-corre da alimentação da tarde."
+            },
+            {
+              "label": "Herói da Recreação",
+              "detail": "Vença 5 minijogos consecutivos mantendo o pânico da creche abaixo de 20 por cento."
+            },
+            {
+              "label": "Coruja Noturna",
+              "detail": "Passe pela sequência do apagão da meia-noite sem perder uma única criança real."
+            },
+            {
+              "label": "Impecável",
+              "detail": "Conclua um turno de dia inteiro sem nenhuma admissão falsa ou rejeição falsa."
+            },
+            {
+              "label": "Segurança",
+              "detail": "Detecte 10 anomalias nas câmeras de vigilância antes que cheguem ao lobby principal."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Respostas rápidas às perguntas que os novos cuidadores mais fazem sobre Animal Daycare Anomaly.",
+      "items": [
+        {
+          "question": "O que é Animal Daycare Anomaly?",
+          "answer": "Animal Daycare Anomaly é um jogo Roblox de survival horror e gerenciamento da Day Dreams Games. Você administra uma creche para filhotes, alimentando-os, jogando minijogos, mantendo o estresse baixo e inspecionando cada visitante que chega à recepção."
+        },
+        {
+          "question": "Como identificar uma anomalia em Animal Daycare Anomaly?",
+          "answer": "Verifique cada visitante de cima a baixo em relação ao padrão normal. As anomalias costumam mostrar garras ou dedos extras, olhos negros ou leitosos invertidos, pelo que ondula mesmo parado, mandíbula inferior que desencaixa ao falar, sombra ausente ou nenhum reflexo no espelho do balcão."
+        },
+        {
+          "question": "O que acontece durante o turno noturno em Animal Daycare Anomaly?",
+          "answer": "Depois das 21:00 o jogo passa de gerenciamento para sobrevivência. Você monitora as câmeras dos corredores, reinicia disjuntores durante apagões, mantém cada criança real contabilizada e expulsa tudo o que entrou durante o dia. Uma única invasão que chegue aos dormitórios encerra o turno."
+        },
+        {
+          "question": "Animal Daycare Anomaly tem códigos?",
+          "answer": "Sim. Os códigos ativos de Animal Daycare Anomaly concedem moedas da creche, caixas de lanche, pacotes de bateria de câmera, uma skin de lanterna, um aumento temporário de dinheiro e um título cosmético de lobby. Os códigos diferenciam maiúsculas de minúsculas e são inseridos na interface do lobby principal."
+        },
+        {
+          "question": "Quantos jogadores podem entrar em um turno em Animal Daycare Anomaly?",
+          "answer": "Os servidores comportam até 25 jogadores. No cooperativo você pode dividir o trabalho entre Triador de Entrada, Cuidador de Atividades, Monitor de Vigilância e Sentinela Noturno, para que entrada, cozinha, mesa de câmeras e perímetro fiquem todos cobertos ao mesmo tempo."
+        },
+        {
+          "question": "Qual é a forma mais rápida de desbloquear melhorias de segurança em Animal Daycare Anomaly?",
+          "answer": "Ganhe Pontos de Liberação de Segurança negando entrada a anomalias no balcão de inspeção e depois gaste-os primeiro no módulo de lanterna UV e no sensor de lente térmica. Essas duas melhorias tornam toda verificação de entrada posterior mais rápida, o que se acumula em mais pontos por turno."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para Dominar Animal Daycare Anomaly?",
+      "description": "Do seu primeiro turno na creche à sobrevivência às noites mais estranhas, nossa wiki comunitária cobre você com guias de Roblox gratuitos e atualizados.",
+      "primary": "Ler o Guia para Iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guia de Animal Daycare Anomaly",
+    "overviewDescription": "Todos os guias de Animal Daycare Anomaly em um só lugar: passo a passo para iniciantes, rotinas de turno, finais secretos e as dicas que mantêm um lobby inteiro vivo da triagem matinal até as luzes se apagarem."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Animal Daycare Anomaly",
+    "overviewDescription": "Como os sistemas de Animal Daycare Anomaly realmente funcionam: tipos de anomalia, a lista completa de anomalias, regras da creche, gatilhos de eventos, comportamento de sustos e os modificadores de desafio que elevam a aposta."
+  },
+  "characters": {
+    "overviewTitle": "Personagens de Animal Daycare Anomaly",
+    "overviewDescription": "Conheça o elenco de Animal Daycare Anomaly: os animais que você admite, os bichos de estimação e NPCs que circulam pelo prédio, a função de babá e os impostores escondidos atrás de rostos familiares."
+  },
+  "maps": {
+    "overviewTitle": "Mapas de Animal Daycare Anomaly",
+    "overviewDescription": "Navegue por todos os mapas de Animal Daycare Anomaly: layouts dos andares, salas individuais, salas escondidas que valem a checagem e os marcadores de localização que aceleram a varredura das câmeras."
+  },
+  "controls": {
+    "overviewTitle": "Controles de Animal Daycare Anomaly",
+    "overviewDescription": "Os controles de Animal Daycare Anomaly e as funções que eles acionam: referência completa de teclas, as funções que você pode assumir em um turno, objetivos diários e as prioridades de tarefa que mantêm a creche funcionando."
+  },
+  "progression": {
+    "overviewTitle": "Progressão em Animal Daycare Anomaly",
+    "overviewDescription": "Acompanhe sua progressão em Animal Daycare Anomaly: recompensas de nível, marcos de desbloqueio, caça às conquistas e as rotas secretas que rendem os finais mais raros."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Animal Daycare Anomaly",
+    "overviewDescription": "Todos os códigos ativos de Animal Daycare Anomaly com a recompensa de cada um, além do passo a passo exato de resgate e do que fazer quando um código para de funcionar."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos Passos",
+    "needHelp": "Precisa de Ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "noActiveCodes": "Nenhum código ativo no momento",
+    "checkBackSoon": "Volte em breve para novos códigos",
+    "close": "Fechar"
+  },
+  "footer": {
+    "aboutTitle": "Animal Daycare Anomaly Wiki",
+    "about": "O Animal Daycare Anomaly Wiki é um hub de guias independente feito por fãs, cobrindo detecção de anomalias, turnos na creche, inspeções de visitantes, finais secretos e conhecimentos essenciais de sobrevivência para jogadores novos e veteranos.",
+    "quickLinks": "Links Rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Animal Daycare Anomaly Wiki. Sem vínculo com a Day Dreams Games ou a Roblox.",
+    "description": "Survival horror da Roblox pela Day Dreams Games. Inspecione cada visitante, identifique os impostores e sobreviva ao turno noturno.",
+    "playGame": "Jogar no Roblox",
+    "developerGroup": "Day Dreams Games (Desenvolvedora)",
+    "gameplayVideos": "Vídeos de Gameplay",
+    "beginnerGuide": "Guia para Iniciantes",
+    "shiftGuide": "Guia de Turnos",
+    "anomalyGuide": "Guia de Anomalias",
+    "secretsGuide": "Segredos e Finais",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O guia que você procura pode ter sido movido ou ainda não foi adicionado.",
+    "cta": "Ver os Guias"
+  },
+  "legal": {
+    "about": {
+      "title": "Sobre",
+      "metaDescription": "Sobre o Animal Daycare Anomaly Wiki: um hub de guias independente feito por jogadores, cobrindo detecção de anomalias, turnos na creche, inspeções de visitantes e dicas de sobrevivência.",
+      "paragraphs": [
+        "O Animal Daycare Anomaly Wiki é um hub de guias independente feito por fãs, cobrindo detecção de anomalias, turnos na creche, inspeção de visitantes, finais secretos e conhecimentos essenciais de sobrevivência para jogadores novos e veteranos.",
+        "Animal Daycare Anomaly é um jogo Roblox de survival horror desenvolvido pela Day Dreams Games. Você inspeciona cada nova chegada, cuida das crianças e decide quem pode entrar — alguns visitantes podem não ser crianças de verdade.",
+        "Todos os guias são escritos por jogadores, para jogadores, e atualizados conforme o jogo recebe novos turnos, anomalias e atualizações de conteúdo."
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Política de Privacidade",
+      "metaDescription": "Como o Animal Daycare Anomaly Wiki trata dados: nenhuma credencial coletada, apenas informações padrão de análise, publicidade e hospedagem.",
+      "paragraphs": [
+        "Esta wiki de fãs fornece guias informativos sobre o jogo Animal Daycare Anomaly (animal-daycare-anomaly.wiki). Não solicitamos credenciais de conta, senhas do Roblox ou informações privadas de pagamento.",
+        "Provedores básicos de análise, publicidade e hospedagem podem processar informações técnicas padrão, como tipo de dispositivo, navegador, região aproximada e páginas visitadas.",
+        "Links externos podem levar ao Roblox, YouTube ou ferramentas da comunidade. Esses serviços são regidos por suas próprias políticas de privacidade."
+      ]
+    },
+    "termsOfService": {
+      "title": "Termos de Serviço",
+      "metaDescription": "Termos de uso do Animal Daycare Anomaly Wiki, um hub de guias independente feito por fãs para o jogo Roblox Animal Daycare Anomaly.",
+      "paragraphs": [
+        "Este site é um hub de guias independente feito por fãs para Animal Daycare Anomaly. O conteúdo é fornecido apenas para fins informativos e de entretenimento.",
+        "Sistemas do jogo, códigos, drops e detalhes de atualização podem mudar sem aviso. Sempre confirme informações importantes no jogo ou pelos canais oficiais.",
+        "Ao usar este site, você concorda em não fazer uso indevido, não tentar acesso não autorizado e não apresentar esta wiki de fãs como propriedade oficial da Day Dreams Games ou da Roblox."
+      ]
+    },
+    "copyright": {
+      "title": "Direitos Autorais",
+      "metaDescription": "Aviso de direitos autorais e atribuição do Animal Daycare Anomaly Wiki, incluindo contato para detentores de direitos.",
+      "paragraphs": [
+        "Animal Daycare Anomaly, Roblox, recursos do jogo, logotipos e mídias relacionadas pertencem à Day Dreams Games e aos respectivos proprietários.",
+        "Este site é uma wiki de fãs não oficial criada para fins de guia e informação. Não é endossada nem afiliada à Day Dreams Games ou à Roblox Corporation.",
+        "Se você detém direitos sobre conteúdo exibido aqui e tem alguma preocupação, entre em contato pelo support@animal-daycare-anomaly.wiki para análise."
+      ]
+    }
+  }
+}

@@ -513,7 +513,10 @@
     "home": "Home",
     "noGuidesAvailable": "No guides available yet. Check back soon!",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "noActiveCodes": "No active codes currently available",
+    "checkBackSoon": "Check back soon for new codes",
+    "close": "Close"
   },
   "footer": {
     "aboutTitle": "Animal Daycare Anomaly Wiki",
@@ -532,5 +535,48 @@
     "secretsGuide": "Secrets & Endings",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "cta": "Browse the Guides"
+  },
+  "legal": {
+    "about": {
+      "title": "About",
+      "metaDescription": "About Animal Daycare Anomaly Wiki: an independent, player-built guide hub covering anomaly detection, daycare shifts, visitor inspections, and survival tips.",
+      "paragraphs": [
+        "Animal Daycare Anomaly Wiki is an independent fan-built guide hub covering anomaly detection, daycare shifts, visitor inspection, secret endings, and essential survival knowledge for new and veteran players alike.",
+        "Animal Daycare Anomaly is a Roblox survival horror game developed by Day Dreams Games. You inspect every new arrival, care for the children, and decide who is allowed inside — some visitors may not be real children.",
+        "All guides are written by players, for players, and updated as the game receives new shifts, anomalies, and content updates."
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "metaDescription": "How Animal Daycare Anomaly Wiki handles data: no account credentials collected, only standard analytics, advertising, and hosting information.",
+      "paragraphs": [
+        "This fan wiki provides informational game guides for Animal Daycare Anomaly (animal-daycare-anomaly.wiki). We do not request account credentials, Roblox passwords, or private payment information.",
+        "Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.",
+        "External links may lead to Roblox, YouTube, or community tools. Those services are governed by their own privacy policies."
+      ]
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "metaDescription": "Terms for using Animal Daycare Anomaly Wiki, an independent fan-made guide hub for the Roblox game Animal Daycare Anomaly.",
+      "paragraphs": [
+        "This site is an independent fan-made guide hub for Animal Daycare Anomaly. Content is provided for informational and entertainment purposes only.",
+        "Game systems, codes, drops, and update details may change without notice. Always verify important information in-game or through official channels.",
+        "By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Day Dreams Games or Roblox property."
+      ]
+    },
+    "copyright": {
+      "title": "Copyright",
+      "metaDescription": "Copyright and attribution notice for Animal Daycare Anomaly Wiki, including contact details for rights holders.",
+      "paragraphs": [
+        "Animal Daycare Anomaly, Roblox, in-game assets, logos, and related media belong to Day Dreams Games and their respective owners.",
+        "This site is a non-official fan wiki built for guide and informational purposes. It is not endorsed by or affiliated with Day Dreams Games or Roblox Corporation.",
+        "If you own rights to content displayed here and have a concern, please contact us at support@animal-daycare-anomaly.wiki for review."
+      ]
+    }
   }
 }

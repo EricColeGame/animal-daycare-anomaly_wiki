@@ -1,11 +1,26 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
+import { languageAlternates } from "@/components/site";
+import { siteConfig } from "@/config/site";
 
-export default function CopyrightPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.copyright" });
+  return {
+    title: `${t("title")} | ${siteConfig.name}`,
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/copyright`, languages: languageAlternates("/copyright") },
+  };
+}
+
+export default async function CopyrightPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.copyright" });
+  const paragraphs = t.raw("paragraphs") as string[];
   return (
-    <LegalPage title="Copyright">
-      <p>Animal Daycare Anomaly, Roblox, in-game assets, logos, and related media belong to Day Dreams Games and their respective owners.</p>
-      <p>This site is a non-official fan wiki built for guide and informational purposes. It is not endorsed by or affiliated with Day Dreams Games or Roblox Corporation.</p>
-      <p>If you own rights to content displayed here and have a concern, please contact us at support@animal-daycare-anomaly.wiki for review.</p>
+    <LegalPage title={t("title")}>
+      {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }

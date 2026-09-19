@@ -17,7 +17,7 @@ type Home = typeof en.home;
 const icons: LucideIcon[] = [BookOpen, Shield, Compass, Boxes, Flame, Code2, Swords, MapIcon, Users, Trophy, Skull, Zap, CircleHelp, ScrollText];
 
 
-export default function HomePageClient({ home, locale, articles, recentArticles }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[] }) {
+export default function HomePageClient({ home, locale, articles, recentArticles, closeLabel }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[]; closeLabel: string }) {
   const YOUTUBE_VIDEO_ID = siteConfig.heroVideoId || "";
 
   return (
@@ -33,7 +33,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
         </div>
         {YOUTUBE_VIDEO_ID && (
           <div className="mx-auto mt-5 max-w-4xl">
-            <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
+            <TrailerButton videoId={YOUTUBE_VIDEO_ID} closeLabel={closeLabel} />
           </div>
         )}
         <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-muted-foreground">{home.hero.description}</p>

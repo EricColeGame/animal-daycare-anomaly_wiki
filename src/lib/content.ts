@@ -247,12 +247,45 @@ const GROUP_TITLES: Record<string, string> = {
   codes: "Codes",
 };
 
-// locale → 分组标题映射。当前四种语言（en/pt/es/de）的侧边栏标题统一回退英文默认值，
-// 翻译在 Part 6 统一补齐；此处保留扩展点，不再保留已移除语言（如 ja）的死配置。
-const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {};
+// locale → 分组标题映射。键集合必须与 GROUP_TITLES 的 slug 一一对应；
+// 缺失的语言/分组自动回退英文默认值（回退链：locale 表 → 英文 GROUP_TITLES → slug 转标题）。
+const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
+  pt: {
+    guide: "Primeiros Passos",
+    mechanics: "Mecânicas de Anomalias",
+    characters: "Personagens e Animais",
+    maps: "Mapas e Salas",
+    controls: "Controles e Funções",
+    progression: "Progressão",
+    codes: "Códigos",
+  },
+  es: {
+    guide: "Primeros Pasos",
+    mechanics: "Mecánicas de Anomalías",
+    characters: "Personajes y Animales",
+    maps: "Mapas y Salas",
+    controls: "Controles y Tareas",
+    progression: "Progresión",
+    codes: "Códigos",
+  },
+  de: {
+    guide: "Erste Schritte",
+    mechanics: "Anomalie-Mechaniken",
+    characters: "Charaktere & Tiere",
+    maps: "Karten & Räume",
+    controls: "Steuerung & Aufgaben",
+    progression: "Fortschritt",
+    codes: "Codes",
+  },
+};
 
-// locale → "Overview" 翻译（同样留待 Part 6 补齐）
-const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {};
+// locale → "Overview" 翻译（侧边栏每个分组的列表页入口）
+const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
+  en: "Overview",
+  pt: "Visão Geral",
+  es: "Descripción General",
+  de: "Übersicht",
+};
 
 // 分组排序顺序（必须覆盖 GROUP_TITLES 的全部 slug，未列出的分组排到末尾）
 const GROUP_ORDER: string[] = [

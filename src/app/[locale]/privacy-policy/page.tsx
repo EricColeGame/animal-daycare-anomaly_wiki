@@ -1,11 +1,26 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
+import { languageAlternates } from "@/components/site";
+import { siteConfig } from "@/config/site";
 
-export default function PrivacyPolicyPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.privacyPolicy" });
+  return {
+    title: `${t("title")} | ${siteConfig.name}`,
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/privacy-policy`, languages: languageAlternates("/privacy-policy") },
+  };
+}
+
+export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.privacyPolicy" });
+  const paragraphs = t.raw("paragraphs") as string[];
   return (
-    <LegalPage title="Privacy Policy">
-      <p>This fan wiki provides informational game guides for Animal Daycare Anomaly (animal-daycare-anomaly.wiki). We do not request account credentials, Roblox passwords, or private payment information.</p>
-      <p>Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.</p>
-      <p>External links may lead to Roblox, YouTube, or community tools. Those services are governed by their own privacy policies.</p>
+    <LegalPage title={t("title")}>
+      {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }

@@ -1,11 +1,26 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
+import { languageAlternates } from "@/components/site";
+import { siteConfig } from "@/config/site";
 
-export default function AboutPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.about" });
+  return {
+    title: `${t("title")} | ${siteConfig.name}`,
+    description: t("metaDescription"),
+    alternates: { canonical: `/${locale}/about`, languages: languageAlternates("/about") },
+  };
+}
+
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.about" });
+  const paragraphs = t.raw("paragraphs") as string[];
   return (
-    <LegalPage title="About">
-      <p>Animal Daycare Anomaly Wiki is an independent fan-built guide hub covering anomaly detection, daycare shifts, visitor inspection, secret endings, and essential survival knowledge for new and veteran players alike.</p>
-      <p>Animal Daycare Anomaly is a Roblox survival horror game developed by Day Dreams Games. You inspect every new arrival, care for the children, and decide who is allowed inside — some visitors may not be real children.</p>
-      <p>All guides are written by players, for players, and updated as the game receives new shifts, anomalies, and content updates.</p>
+    <LegalPage title={t("title")}>
+      {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
     </LegalPage>
   );
 }
