@@ -42,22 +42,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the full shift loop from your first clock-in: screen arrivals at the front desk, cook requested meals, run playroom mini-games, and lock the facility down before dark."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "All Working Codes",
+          "description": "Redeem the active Animal Daycare Anomaly codes for daycare coins, camera batteries, a flashlight skin, and a limited lobby title before they retire."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Spot Impostors",
+          "description": "Compare every anomaly tell extra claws, inverted sclera, drifting fur, missing shadows, and hollow reflections against the normal animal baseline."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Animal Daycare Anomaly."
+          "title": "Roles & Jobs",
+          "description": "Split intake screening, kitchen duty, camera watch, and night patrol across your squad so no station is left unmanned during a shift."
         }
       ]
     },
@@ -65,78 +65,72 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Anomaly Checklist",
+        "Working Codes",
+        "Night Survival",
+        "Badge List"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "The complete first-shift walkthrough covering intake, meal prep, mini-games, and nighttime survival.",
+          "href": "/guide/animal-daycare-anomaly-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "description": "All working Animal Daycare Anomaly codes with their rewards and the exact redemption steps.",
+          "href": "/codes/animal-daycare-anomaly-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Anomaly List",
+          "description": "Every documented anomaly designation, its disguise, visual clue, and verification method.",
+          "href": "/mechanics/animal-daycare-anomaly-anomaly-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "How to Spot Impostors",
+          "description": "Physical, behavioral, audio, and environmental tells that expose a mimic before it reaches the playroom.",
+          "href": "/mechanics/animal-daycare-anomaly-anomalies"
+        },
+        {
+          "badge": "New",
+          "title": "Roles & Jobs",
+          "description": "Intake Screener, Activity Caretaker, Surveillance Monitor, and Nighttime Sentinel duties explained.",
+          "href": "/controls/animal-daycare-anomaly-roles"
+        },
+        {
+          "badge": "Popular",
+          "title": "Night Survival Tips",
+          "description": "Barricade routines, camera habits, and breaker resets that carry you from dusk to morning shift.",
+          "href": "/guide/animal-daycare-anomaly-tips"
+        },
+        {
+          "badge": "New",
+          "title": "Badges & Achievements",
+          "description": "Every Animal Daycare Anomaly badge, its difficulty, and the objective that unlocks it.",
+          "href": "/progression/animal-daycare-anomaly-achievements"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Security Unlocks",
+          "description": "Thermal lens, UV flashlight, airlock gate and the clearance points each one costs.",
+          "href": "/progression/animal-daycare-anomaly-unlocks"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Animal Daycare Anomaly?",
       "paragraphs": [
-        "Animal Daycare Anomaly is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Animal Daycare Anomaly is a Roblox survival horror and management game from Day Dreams Games. You run a daycare for animal youngsters by day, admitting visitors at the front desk, cooking the meals they request, running playroom mini-games, and soothing anyone whose stress meter climbs too high.",
+        "The twist arrives with the guests. Some arrivals are mimics whose disguises carry physical, behavioral, or audio flaws, and anything you admit during the day turns hostile after dark. Shifts move through morning intake, midday care, evening lockdown, and a night phase where you watch hallway cameras, reset breakers, and keep every real child accounted for."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Day Dreams Games"
         },
         {
           "label": "Platform",
@@ -144,158 +138,289 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Survival Horror"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "2M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Server Size",
+          "value": "25 Players"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Shift Phases",
+          "value": "4"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Badge Tiers",
+          "value": "4"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Animal Daycare Anomaly Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Every system in Animal Daycare Anomaly broken down: intake screening, anomaly detection, meal prep, team roles, security unlocks, and surviving the night shift.",
       "modules": [
         {
           "order": 1,
-          "name": "Animal Daycare Anomaly Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/animal-daycare-anomaly-codes",
-          "displayType": "code-box",
+          "name": "Animal Daycare Anomaly Beginner Guide",
+          "description": "A beginner-friendly walkthrough of the core daycare shift loop, covering visitor checks, suspicious cases, animal care, and the nighttime events that end a run.",
+          "href": "/guide/animal-daycare-anomaly-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Screen every arrival at the front desk, checking paws, eyes, shadows, and identification cards before you unlock the gate."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Cook the meal each child requests in the kitchen and serve it before the hunger meter empties."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Run playroom mini-games to burn off toddler energy and keep the facility panic meter low."
+            },
+            {
+              "label": "4",
+              "detail": "Calm agitated animals with snacks and soothing before their stress spreads across the whole room."
+            },
+            {
+              "label": "5",
+              "detail": "Sweep the camera feeds for hallway changes, then board up doors and windows during dusk lockdown."
+            },
+            {
+              "label": "6",
+              "detail": "Survive the night shift by watching monitors, resetting breakers, and staying out of unlit corridors."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/animal-daycare-anomaly-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Animal Daycare Anomaly Anomalies Guide",
+          "description": "A detection guide to the abnormal visitors, suspicious behaviors, and hidden clues you meet during daycare inspections, so you can judge which arrivals are safe.",
+          "href": "/mechanics/animal-daycare-anomaly-anomaly-list",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Six Claws",
+              "detail": "Extra digit syndrome shows six claws or an added jointed finger during the paw inspection."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Black Eyes",
+              "detail": "Inverted sclera reads as fully black or milky white eyes under a flashlight exam."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Fur Drift",
+              "detail": "Texture drift makes a fur pattern ripple or shift while the visitor stands perfectly still."
+            },
+            {
+              "label": "Jaw Drop",
+              "detail": "A jaw extension unhinges the lower jaw every time the visitor speaks."
+            },
+            {
+              "label": "No Shadow",
+              "detail": "A missing shadow under the bright counter lights is one of the fastest low-risk tells."
+            },
+            {
+              "label": "No Mirror",
+              "detail": "A hollow reflection leaves the desk mirror showing empty space behind the child."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/animal-daycare-anomaly-tier-list",
-          "displayType": "tier-grid",
+          "name": "Animal Daycare Anomaly Gameplay Guide",
+          "description": "A complete gameplay overview of feeding, mini-games, calming animals, camera inspections, and the nighttime survival mechanics that decide your shift rating.",
+          "href": "/guide/animal-daycare-anomaly-shifts",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Morning",
+              "detail": "Front desk inspection and entry clearance run from 08:00 to 12:00, when blatant oddities are easiest to catch."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Midday",
+              "detail": "Kitchen duty and recreational mini-games fill 12:00 to 17:00 while room counts still need tracking."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Evening",
+              "detail": "Headcounts and bedroom preparation run 17:00 to 21:00, the last window to seal every entryway."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Night",
+              "detail": "Power conservation and intruder banishment run 21:00 to 06:00, when breaches end the shift outright."
+            },
+            {
+              "label": "Cameras",
+              "detail": "Security feeds surface hallway changes and silhouettes that the playroom view never shows."
+            },
+            {
+              "label": "Meals",
+              "detail": "Meal prep roughly every three minutes keeps room stability climbing instead of collapsing."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/animal-daycare-anomaly-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Animal Daycare Anomaly Codes",
+          "description": "A dedicated codes section listing the active promotional codes, the reward each one grants, and the redemption method, kept current for returning caretakers.",
+          "href": "/codes/animal-daycare-anomaly-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "DAYCARE2026",
+              "detail": "500 Daycare Coins and 2 Snack Crates, a strong starter boost for new caretakers.",
+              "badge": "Active"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "ANOMALYHUNT",
+              "detail": "Free flashlight skin and 250 Daycare Coins, claimable once per player profile.",
+              "badge": "Active"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "CAMERAFIX",
+              "detail": "3 Camera Battery Packs, the resource that keeps night surveillance running.",
+              "badge": "Active"
+            },
+            {
+              "label": "NIGHTSHIFT",
+              "detail": "1.5x cash boost for 15 minutes, best activated during a peak session.",
+              "badge": "Active"
+            },
+            {
+              "label": "IMPOSTORALERT",
+              "detail": "A unique lobby title, Vigilant, granted as a purely cosmetic profile reward.",
+              "badge": "Active"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/animal-daycare-anomaly-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Animal Daycare Anomaly Classes Guide",
+          "description": "A guide to the roles your squad can take on during a shift, ranked by how much each station protects the daycare from a nighttime breach.",
+          "href": "/controls/animal-daycare-anomaly-roles",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Intake Screener owns the main entrance and scanner, the only station that can stop an anomaly before it enters."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Surveillance Monitor works the security desk, tracking hallway feeds and sound cues with high mental load."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Nighttime Sentinel roams the darkened perimeter sealing hazards through the most dangerous phase."
+            },
+            {
+              "label": "C",
+              "detail": "Activity Caretaker runs the kitchen and playpen, holding hunger, morale, and panic in check all day."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/animal-daycare-anomaly-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Animal Daycare Anomaly Update Guide",
+          "description": "A news-style module tracking the latest gameplay changes, visual polish, and developer updates, covering new content, patches, and limited-time features.",
+          "href": "/guide/animal-daycare-anomaly-update",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Cameras",
+              "detail": "Detection camera feeds were refined, adding subtler cues for incoming mimics."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Pacing",
+              "detail": "Nighttime pacing was retuned so the dark phase escalates with more warning."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Icons",
+              "detail": "Interface icons were refreshed across the lobby and the security terminals."
+            },
+            {
+              "label": "Visuals",
+              "detail": "The patch doubles down on atmosphere and tension through updated visual polish."
+            },
+            {
+              "label": "Mimics",
+              "detail": "Impostor disguises vary more than before, so arrivals need closer scrutiny at the desk."
+            },
+            {
+              "label": "Breaches",
+              "detail": "Visitors rejected and left lingering outside the gate stay the leading cause of a breach."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Animal Daycare Anomaly Tips and Tricks",
+          "description": "A practical tips section covering survival strategy, inspection habits, resource management, and the mistakes that end beginner shifts early.",
+          "href": "/guide/animal-daycare-anomaly-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Clipboard",
+              "detail": "Keep the inspection clipboard ready and never wave an animal past the front desk unchecked."
+            },
+            {
+              "label": "Checklist",
+              "detail": "Run the same top-to-bottom examination on every visitor so nothing slips through."
+            },
+            {
+              "label": "Routine",
+              "detail": "Build a fixed daytime routine so you are equipped and positioned before darkness falls."
+            },
+            {
+              "label": "Barricade",
+              "detail": "Fortify doors and test camera feeds during dusk lockdown, never after night begins."
+            },
+            {
+              "label": "Headcount",
+              "detail": "Recount every bed at dusk, since unaccounted entities roam free after lights out."
+            },
+            {
+              "label": "Breakers",
+              "detail": "Reset tripped breakers quickly, because a blackout hides an approaching anomaly."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Animal Daycare Anomaly Badges Guide",
+          "description": "A badge and achievement guide listing the progression milestones in Animal Daycare Anomaly and the exact objective that unlocks each one.",
+          "href": "/progression/animal-daycare-anomaly-achievements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "First Day",
+              "detail": "Complete Shift 1 without letting an obvious impostor inside the daycare."
+            },
+            {
+              "label": "Keen Eye",
+              "detail": "Successfully identify your first visitor anomaly at the intake desk."
+            },
+            {
+              "label": "Chef",
+              "detail": "Prepare 15 correct meals during the afternoon feeding rush."
+            },
+            {
+              "label": "Play Hero",
+              "detail": "Win 5 consecutive mini-games while daycare panic stays below 20 percent."
+            },
+            {
+              "label": "Night Owl",
+              "detail": "Clear the midnight blackout sequence without losing a single real child."
+            },
+            {
+              "label": "Flawless",
+              "detail": "Finish a full-day shift with zero false admissions or false rejections."
+            },
+            {
+              "label": "Security",
+              "detail": "Spot 10 surveillance camera anomalies before they reach the main lobby."
             }
           ]
         }
@@ -303,27 +428,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Animal Daycare Anomaly.",
+      "description": "Quick answers to the questions new caretakers ask most about Animal Daycare Anomaly.",
       "items": [
         {
           "question": "What is Animal Daycare Anomaly?",
-          "answer": "Animal Daycare Anomaly is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Animal Daycare Anomaly is a Roblox survival horror and management game from Day Dreams Games. You run a daycare for animal youngsters, feeding them, playing mini-games, keeping their stress low, and inspecting every visitor who arrives at the front desk."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I spot an anomaly in Animal Daycare Anomaly?",
+          "answer": "Check each visitor against the normal baseline from top to bottom. Anomalies tend to show extra claws or digits, inverted black or milky eyes, fur that ripples while standing still, a lower jaw that unhinges when speaking, a missing shadow, or no reflection in the desk mirror."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What happens during the night shift in Animal Daycare Anomaly?",
+          "answer": "After 21:00 the game switches from management to survival. You monitor hallway cameras, reset tripped breakers during blackouts, keep every real child accounted for, and banish anything that got inside during the day. A single breach that reaches the sleeping quarters ends the shift."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does Animal Daycare Anomaly have codes?",
+          "answer": "Yes. Active Animal Daycare Anomaly codes grant daycare coins, snack crates, camera battery packs, a flashlight skin, a temporary cash boost, and a cosmetic lobby title. Codes are case-sensitive and are entered from the main lobby interface."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How many players can join a shift in Animal Daycare Anomaly?",
+          "answer": "Servers hold up to 25 players. In co-op you can split the work into Intake Screener, Activity Caretaker, Surveillance Monitor, and Nighttime Sentinel so that the entrance, kitchen, camera desk, and perimeter are all covered at once."
+        },
+        {
+          "question": "What is the fastest way to unlock security upgrades in Animal Daycare Anomaly?",
+          "answer": "Earn Security Clearance Points by denying entry to anomalies at the inspection desk, then spend them on the UV flashlight module and thermal lens sensor first. Those two upgrades make every later intake check faster, which compounds into more points per shift."
         }
       ]
     },
